@@ -51,8 +51,8 @@ class Game:
 
 if __name__ == '__main__':
     enemies = [
-        Enemy('Ogre', 1),
-        Enemy('Imp', 1)
+        Enemy('Bob', 1, 'Ogre'),
+        Enemy('Tom', 1, 'Imp')
     ]
     player = Player('Hercules', 1)
     Game(player, enemies).main()
